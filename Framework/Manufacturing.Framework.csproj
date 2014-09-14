@@ -145,11 +145,9 @@
     <Compile Include="Configuration\ServiceBusTopicSubscriptionInformation.cs" />
     <Compile Include="Configuration\StorageConfiguration.cs" />
     <Compile Include="Datasource\DataReceivedEventArgs.cs" />
-    <Compile Include="Datasource\DatasourceRecordExtensions.cs" />
     <Compile Include="Datasource\DatasourceRecordSerializer.cs" />
     <Compile Include="Datasource\IDatasourceRecordSerializer.cs" />
     <Compile Include="Configuration\FrameworkContainer.cs" />
-    <Compile Include="Datasource\InvalidDatasourceRecordConversion.cs" />
     <Compile Include="Datasource\RandomDatasourceRecordGenerator.cs" />
     <Compile Include="Datasource\SampleEvent.cs" />
     <Compile Include="DataWarehouse\WarehouseInjestor.cs" />

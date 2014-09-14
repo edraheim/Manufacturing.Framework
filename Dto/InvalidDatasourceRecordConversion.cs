@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Manufacturing.Framework.Datasource
+namespace Manufacturing.Framework.Dto
 {
     public class InvalidDatasourceRecordConversion : InvalidOperationException
     {

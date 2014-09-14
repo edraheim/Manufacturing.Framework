@@ -2,9 +2,8 @@
 using System.IO;
 using System.Text;
 using Manufacturing.Framework.Dto;
-using Microsoft.ServiceBus.Management;
 
-namespace Manufacturing.Framework.Datasource
+namespace Manufacturing.Framework.Dto
 {
     public static class DatasourceRecordExtensions
     {
@@ -70,7 +69,7 @@ namespace Manufacturing.Framework.Datasource
         {
             ThrowExceptionOnInvalidConversion(record.DataType, DatasourceRecord.DataTypeEnum.String);
 
-            return Encoding.UTF8.GetString(record.Value);
+            return Encoding.UTF8.GetString(record.Value, 0, record.Value.Length);
         }
 
         public static void SetStringValue(this DatasourceRecord record, string value)

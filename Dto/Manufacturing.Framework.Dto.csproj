@@ -37,7 +37,9 @@
   <ItemGroup>
     <Compile Include="DatasourceConfiguration.cs" />
     <Compile Include="DatasourceRecord.cs" />
+    <Compile Include="DatasourceRecordExtensions.cs" />
     <Compile Include="EventRecord.cs" />
+    <Compile Include="InvalidDatasourceRecordConversion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
